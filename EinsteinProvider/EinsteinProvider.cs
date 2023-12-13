@@ -118,7 +118,7 @@ namespace Einstein.Provider
             if (_einsteinLedger.Item2 == null || _einsteinLedger.Item2?.ToList().Count == 0)
             {
                 /*/
-                 * Create the table ledger if it does not exist.
+                 * Create the table ledger if it does not exist and automatically register the credentials if credentials are not present.
                 /*/
                 (string errorMessage, CreateBlockchainLedgerResponseDto ledgerResult) =  _client.CreateLedgerAsync(_client.GetLedgerName()).Result;
 

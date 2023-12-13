@@ -66,3 +66,4 @@ C:\832 Energy Technology Consulting Logo\QueryChainSource\EB SourceCode\EBBuildA
 C:\832 Energy Technology Consulting Logo\QueryChainSource\EB SourceCode\EBBuildAPIClient\TIIStarter\TIIStarter\obj\Debug\net7.0\TIIStarter.pdb
 C:\832 Energy Technology Consulting Logo\QueryChainSource\EB SourceCode\EBBuildAPIClient\TIIStarter\TIIStarter\obj\Debug\net7.0\TIIStarter.genruntimeconfig.cache
 C:\832 Energy Technology Consulting Logo\QueryChainSource\EB SourceCode\EBBuildAPIClient\TIIStarter\TIIStarter\obj\Debug\net7.0\ref\TIIStarter.dll
+C:\832 Energy Technology Consulting Logo\QueryChainSource\EB SourceCode\EBBuildAPIClient\TIIStarter\TIIStarter\bin\Debug\net7.0\appsettings.json
