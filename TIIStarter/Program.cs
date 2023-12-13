@@ -26,7 +26,7 @@ public class Program
 
     /*/
      * Prepared by : EverythingBlockchain, Inc  (C) All Rights Reserved 2023
-     * Prepared for: Decentralized Labs Inc.
+     * Prepared for: Technology Innovation Institute.
      * License     : General Public License (GNU )
      * 
      * Purpose:     This test application is created to demonstrate the BuildDB vector and document database as a replacement to Superbase database.
@@ -85,7 +85,7 @@ public class Program
     static string user_message = "This model is really accurate!";
     static string assistant = "x100";
     static long summaryId = 102;
-    static string title = "Decentralized Lab Test Harness";
+    static string title = "Technology Innovation Institute Test Harness";
     static string content = "awnevdxfiyvgczmcmwnbgufsncsqktbpelbtlcvebrkvbiyjyvtrovzbbtphafiizwsvwnavereecvdmvhwsyzuclowkhhqxsytojpphezusgqmlopvkpmkmwrauadgg";
     static string metadata = "{\"Department\":\"Finance\",\"Code\":\"A209\"}";
     static bool chat = true;
