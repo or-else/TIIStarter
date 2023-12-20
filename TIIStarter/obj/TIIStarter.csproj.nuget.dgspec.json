@@ -149,7 +149,7 @@
           "dependencies": {
             "EBBuildClient": {
               "target": "Package",
-              "version": "[1.0.107, )"
+              "version": "[1.0.108, )"
             }
           },
           "imports": [
@@ -226,7 +226,7 @@
           "dependencies": {
             "EBBuildClient": {
               "target": "Package",
-              "version": "[1.0.107, )"
+              "version": "[1.0.108, )"
             }
           },
           "imports": [
@@ -388,7 +388,7 @@
           "dependencies": {
             "EBBuildClient": {
               "target": "Package",
-              "version": "[1.0.107, )"
+              "version": "[1.0.108, )"
             }
           },
           "imports": [
