@@ -237,7 +237,7 @@ namespace Einstein.Provider
                 filterFunctions: null,
                 relationship: (includeRelationship == false ? null : api_keys_relationship.GetRelationshipDefinition()),
                 servicContext: dBContext,
-                refreshCacheResults: false).ConfigureAwait(false);
+                refreshCacheResults: true).ConfigureAwait(false);
 
             }
             catch (Exception ex)
@@ -390,7 +390,7 @@ namespace Einstein.Provider
                 filterFunctions: null,
                 relationship: null,
                 servicContext: dBContext,
-                refreshCacheResults: false).ConfigureAwait(false);
+                refreshCacheResults: true).ConfigureAwait(false);
 
             }
             catch (Exception ex)
@@ -495,7 +495,7 @@ namespace Einstein.Provider
                 filterFunctions: null,
                 relationship: (includeRelationship == false ? null : users_relationship.GetRelationshipDefinition()),
                 servicContext: dBContext,
-                refreshCacheResults: false).ConfigureAwait(false);
+                refreshCacheResults: true).ConfigureAwait(false);
 
             }
             catch (Exception ex)
@@ -1057,7 +1057,7 @@ namespace Einstein.Provider
                 filterFunctions: null,
                 relationship: null,
                 servicContext: dBContext,
-                refreshCacheResults: false).ConfigureAwait(false);
+                refreshCacheResults: true).ConfigureAwait(false);
 
             }
             catch (Exception ex)

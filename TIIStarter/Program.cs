@@ -35,37 +35,37 @@ public class Program
      * Approach:    This test application uses a sequential approach to test interaction with each table with parent child relationships.
     /*/
 
-    static string apiKey = "dec-1234567";
+    static string apiKey = "dec-91234567";
     static string openai_api_key = "openApiKey-1234567";
 
-    static string _key_id = "2aae892a-e706-457f-b8aa-38a07dc6c338";
+    static string _key_id = "3aae892a-e706-457f-b8aa-38a07dc6c338";
     static Guid key_id = Guid.Parse(_key_id);
 
-    static string _user_id = "5ec99154-4841-4ef5-a6ed-d6bf40c28314";
+    static string _user_id = "6ec99154-4841-4ef5-a6ed-d6bf40c28314";
     static Guid user_id = Guid.Parse(_user_id);
-    static string email = "testuser@dcl.com";
+    static string email = "testtiiuser@dcl.com";
     static Int32 user_request_count = 10;
 
-    static string _id = "86a5c6db-9143-4c98-8501-330d4674d1db";
+    static string _id = "96a5c6db-9143-4c98-8501-330d4674d1db";
     static Guid id = Guid.Parse(_id);
 
-    static string _brain_id = "a71a4a73-e931-4163-a74e-c5f73cb0abdd";
+    static string _brain_id = "b71a4a73-e931-4163-a74e-c5f73cb0abdd";
     static Guid brain_id = Guid.Parse(_brain_id);
 
-    static string _vector_id = "59902a1b-a887-451b-a655-cab3cd5c2719";
+    static string _vector_id = "69902a1b-a887-451b-a655-cab3cd5c2719";
     static Guid vector_id = Guid.Parse(_vector_id);
 
-    static string _document_id = "ad587d47-9041-4522-abd3-07d88871b368";
+    static string _document_id = "bd587d47-9041-4522-abd3-07d88871b368";
     static Guid document_id = Guid.Parse(_document_id);
 
-    static string _chat_id = "3cdab489-f062-4638-b3a7-839bd0b7431e";
+    static string _chat_id = "4cdab489-f062-4638-b3a7-839bd0b7431e";
     static Guid chat_id = Guid.Parse(_chat_id);
 
-    static string _message_id = "414891bd-fb5b-444e-a3d5-275fe0431f45";
+    static string _message_id = "514891bd-fb5b-444e-a3d5-275fe0431f45";
     static Guid message_id = Guid.Parse(_message_id);
 
 
-    static string _brain_subscription_id = "544627af-dcc2-46ab-af39-3b0f060defa1";
+    static string _brain_subscription_id = "644627af-dcc2-46ab-af39-3b0f060defa1";
     static Guid brain_subscription_id = Guid.Parse(_brain_subscription_id);
 
 
