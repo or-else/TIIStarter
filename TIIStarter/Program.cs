@@ -102,10 +102,14 @@ public class Program
         Task task = Task.Run(async () =>
         {
             await Begin();
+
         });
 
+        
         task.Wait();
 
+        Console.WriteLine("Done.");
+        
     }
     public static async Task Begin()
     {
@@ -312,8 +316,7 @@ public class Program
 
         (authStatus, summaryDataWithChildren) = provider.FindSummaryByEmbedding(GetVectorEmbeddingData(), "A209", false).Result;
 
-
-
+        
     }
 
 

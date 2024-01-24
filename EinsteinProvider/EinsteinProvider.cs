@@ -495,7 +495,7 @@ namespace Einstein.Provider
                 filterFunctions: null,
                 relationship: (includeRelationship == false ? null : users_relationship.GetRelationshipDefinition()),
                 servicContext: dBContext,
-                refreshCacheResults: true).ConfigureAwait(false);
+                refreshCacheResults: false).ConfigureAwait(false);
 
             }
             catch (Exception ex)
@@ -1057,7 +1057,7 @@ namespace Einstein.Provider
                 filterFunctions: null,
                 relationship: null,
                 servicContext: dBContext,
-                refreshCacheResults: true).ConfigureAwait(false);
+                refreshCacheResults: false).ConfigureAwait(false);
 
             }
             catch (Exception ex)
