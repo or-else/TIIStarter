@@ -109,7 +109,8 @@ public class Program
         task.Wait();
 
         Console.WriteLine("Done.");
-        
+        Environment.Exit(0);
+
     }
     public static async Task Begin()
     {
